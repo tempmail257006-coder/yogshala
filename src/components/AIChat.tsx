@@ -143,7 +143,7 @@ const AIChat: React.FC = () => {
       <header className="flex items-center justify-between pt-4">
         <div className="flex items-center space-x-3">
           <div className="w-12 h-12 glass-card flex items-center justify-center shadow-lg overflow-hidden p-0">
-            <img src="/images/yogshala-logo.png" alt="YOGSHALA Logo" className="w-full h-full object-contain" />
+            <img src="images/yogshala-logo.png" alt="YOGSHALA Logo" className="w-full h-full object-contain" />
           </div>
           <div>
             <h2 className="text-section-title text-gray-900">{t('aiGuide', language)}</h2>

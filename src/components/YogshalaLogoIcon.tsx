@@ -7,7 +7,7 @@ interface YogshalaLogoIconProps {
 
 export const YogshalaLogoIcon: React.FC<YogshalaLogoIconProps> = ({ size = 24, className = '' }) => (
   <img 
-    src="/images/yogshala-logo.png" 
+    src="images/yogshala-logo.png" 
     alt="YOGSHALA Logo" 
     style={{ width: size, height: size, objectFit: 'cover' }}
     className={`rounded-full ${className}`}

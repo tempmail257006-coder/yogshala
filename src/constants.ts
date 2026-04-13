@@ -253,12 +253,14 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
       "Exhale and reach your right hand toward your shin or a block.",
       "Extend your left arm upward and keep your chest open."
     ],
-    difficulty: "Beginner",
+  difficulty: "Beginner", 
     category: "Beginner",
     breathing: "Inhale to lengthen the spine, exhale to deepen the side stretch.",
     commonMistakes: ["Collapsing the chest", "Locking the front knee", "Overreaching to the floor"],
-    safetyTips: ["Use a block under the lower hand if you can't reach the shin or floor."],
-    imageUrl: "/images/Mukonasanam.jpg",
+  safetyTips: [
+    "Use a block under the lower hand if you can't reach the shin or floor.",
+  ],
+  imageUrl: "images/Mukonasanam.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 45
   },
@@ -767,7 +769,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Keep the breath calm to maintain focus.",
     commonMistakes: ["Looking straight down", "Not engaging the core"],
     safetyTips: ["Place a pillow in front of you in case you tip forward."],
-    imageUrl: "/images/Veerabadhrasana.jpg",
+  imageUrl: "images/Veerabadhrasana.jpg",
     duration: 20
   },
   {
@@ -788,7 +790,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Slow, steady breaths to keep the neck long and the core engaged.",
     commonMistakes: ["Collapsing into the shoulders", "Letting elbows splay wide"],
     safetyTips: ["Avoid if you have neck issues and keep weight in the forearms, not the head."],
-    imageUrl: "/images/Padmasana.jpg",
+  imageUrl: "images/Padmasana.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 45
   },
@@ -871,7 +873,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Steady, calm breathing.",
     commonMistakes: ["Arching the back", "Looking straight down"],
     safetyTips: ["Practice with a wall or a spotter."],
-    imageUrl: "/images/Thadasana.jpg",
+  imageUrl: "images/Thadasana.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 15
   },
@@ -1124,7 +1126,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Inhale to lift and lengthen, exhale to soften the shoulders.",
     commonMistakes: ["Shrugging the shoulders", "Arching the lower back", "Holding the breath"],
     safetyTips: ["Sit on a folded blanket if your hips feel tight."],
-    imageUrl: "/images/Paruvadhasanam.jpg",
+  imageUrl: "images/Paruvadhasanam.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 45
   },
@@ -1146,7 +1148,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Inhale to lengthen, exhale to deepen the twist.",
     commonMistakes: ["Rounding the back", "Forcing the twist", "Collapsing the chest"],
     safetyTips: ["Keep the twist gentle if you have lower-back issues."],
-    imageUrl: "/images/Arthamatseyandrasana.jpg",
+  imageUrl: "images/Arthamatseyandrasana.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 45
   },
@@ -1168,7 +1170,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Slow, expansive breaths into the chest.",
     commonMistakes: ["Dumping weight into the neck", "Overarching the lower back"],
     safetyTips: ["Keep most weight in the elbows and avoid if you have a neck injury."],
-    imageUrl: "/images/Machasanam.jpg",
+  imageUrl: "images/Machasanam.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 40
   },
@@ -1190,7 +1192,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Inhale to lift, exhale to stabilize.",
     commonMistakes: ["Overarching the lower back", "Shrugging the shoulders"],
     safetyTips: ["Avoid if you have acute lower-back pain."],
-    imageUrl: "/images/Salabasana.jpg",
+  imageUrl: "images/Salabasana.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 30
   },
@@ -1212,7 +1214,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Slow, steady breaths through the nose.",
     commonMistakes: ["Turning the head", "Weight on the neck instead of shoulders"],
     safetyTips: ["Use a folded blanket under shoulders and avoid if you have neck issues."],
-    imageUrl: "/images/Sarvangasanam.jpg",
+  imageUrl: "images/Sarvangasanam.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 30
   },
@@ -1234,7 +1236,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Inhale to lift the chest, exhale to deepen the backbend.",
     commonMistakes: ["Compressing the lower back", "Dropping the head too far back"],
     safetyTips: ["Support the lower back with hands if reaching the heels isn't comfortable."],
-    imageUrl: "/images/Ustrasanam.jpg",
+  imageUrl: "images/Ustrasanam.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 30
   },
@@ -1256,7 +1258,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Inhale to lift, exhale to ground through the feet.",
     commonMistakes: ["Front knee collapsing inward", "Leaning forward too much"],
     safetyTips: ["Keep the front knee aligned over the ankle."],
-    imageUrl: "/images/Veerabadhrasana.jpg",
+  imageUrl: "images/Veerabadhrasana.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 40
   },
@@ -1278,7 +1280,7 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Slow, controlled breathing.",
     commonMistakes: ["Putting too much weight on the head", "Letting elbows splay out"],
     safetyTips: ["Practice against a wall and avoid if you have neck issues."],
-    imageUrl: "/images/Yerasanam.jpg",
+  imageUrl: "images/Yerasanam.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 30
   },
@@ -1300,35 +1302,35 @@ export const YOGSHALA_POSES: YOGSHALAPose[] = [
     breathing: "Calm, steady breaths to maintain balance.",
     commonMistakes: ["Rushing the lift", "Collapsing the shoulders", "Holding the breath"],
     safetyTips: ["Only attempt with supervision and avoid if you have neck issues."],
-    imageUrl: "/images/Mulagal thalai asanam.jpg",
+  imageUrl: "images/Mulagal thalai asanam.jpg",
     videoUrl: DEFAULT_POSE_VIDEO,
     duration: 20
   }
 ];
 
 const POSE_IMAGE_OVERRIDES: Record<string, string> = {
-  tadasana: "/images/Thadasana.jpg",
-  savasana: "/images/Savasanam.jpg",
-  mukonasanam: "/images/Mukonasanam.jpg",
-  parvatasana: "/images/Paruvadhasanam.jpg",
-  padmasana: "/images/Padmasana.jpg",
-  navasana: "/images/Machasanam.jpg",
-  dhanurasana: "/images/Dhanurasana.jpg",
-  paschimottanasana: "/images/Patchimotasana.jpg",
-  ardha_matsyendrasana: "/images/Arthamatseyandrasana.jpg",
-  matsyasana: "/images/Machasanam.jpg",
-  salabhasana: "/images/Salabasana.jpg",
-  sirsasana_prep: "/images/Sarvangasanam.jpg",
-  sirsasana: "/images/Yerasanam.jpg",
-  vrischikasana: "/images/Paruvadhasanam.jpg",
-  pincha_mayurasana: "/images/Salabasana.jpg",
-  urdhva_dhanurasana: "/images/Dhanurasana.jpg",
-  rajakapotasana: "/images/Paruvadhasanam.jpg",
-  sarvangasana: "/images/Sarvangasanam.jpg",
-  ustrasana: "/images/Ustrasanam.jpg",
-  veerabadhrasana: "/images/Veerabadhrasana.jpg",
-  yerasanam: "/images/Yerasanam.jpg",
-  mulagal_thalai_asanam: "/images/Mulagal thalai asanam.jpg",
+  tadasana: "images/Thadasana.jpg",
+  savasana: "images/Savasanam.jpg",
+  mukonasanam: "images/Mukonasanam.jpg",
+  parvatasana: "images/Paruvadhasanam.jpg",
+  padmasana: "images/Padmasana.jpg",
+  navasana: "images/Machasanam.jpg",
+  dhanurasana: "images/Dhanurasana.jpg",
+  paschimottanasana: "images/Patchimotasana.jpg",
+  ardha_matsyendrasana: "images/Arthamatseyandrasana.jpg",
+  matsyasana: "images/Machasanam.jpg",
+  salabhasana: "images/Salabasana.jpg",
+  sirsasana_prep: "images/Sarvangasanam.jpg",
+  sirsasana: "images/Yerasanam.jpg",
+  vrischikasana: "images/Paruvadhasanam.jpg",
+  pincha_mayurasana: "images/Salabasana.jpg",
+  urdhva_dhanurasana: "images/Dhanurasana.jpg",
+  rajakapotasana: "images/Paruvadhasanam.jpg",
+  sarvangasana: "images/Sarvangasanam.jpg",
+  ustrasana: "images/Ustrasanam.jpg",
+  veerabadhrasana: "images/Veerabadhrasana.jpg",
+  yerasanam: "images/Yerasanam.jpg",
+  mulagal_thalai_asanam: "images/Mulagal thalai asanam.jpg",
 };
 
 YOGSHALA_POSES.forEach((pose) => {
@@ -1345,5 +1347,3 @@ export const MOTIVATIONAL_QUOTES = [
   "Your body exists in the past and your mind exists in the future. In YOGSHALA, they come together in the present.",
   "YOGSHALA does not just change the way we see things, it transforms the person who sees."
 ];
-
-

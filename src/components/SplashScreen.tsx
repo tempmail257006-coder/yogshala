@@ -52,7 +52,7 @@ const SplashScreen = ({ onFinish }: { onFinish: () => void }) => {
               }}
               className="w-24 h-24 sm:w-32 sm:h-32 bg-white rounded-3xl flex items-center justify-center shadow-2xl mb-6 sm:mb-8"
             >
-              <img src="/images/yogshala-logo.png" alt="YOGSHALA Logo" />
+              <img src="images/yogshala-logo.png" alt="YOGSHALA Logo" />
             </motion.div>
             
             <motion.h1

@@ -209,8 +209,8 @@ const Auth: React.FC = () => {
             </button>
             <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[24px] bg-animated-gradient flex items-center justify-center text-white shadow-2xl shadow-deep-purple/20 mb-6 overflow-hidden">
               {!isForgotPassword ? (
-                <img
-                  src="/images/yogshala-logo.png"
+                <img 
+                  src="images/yogshala-logo.png"
                   alt="YOGSHALA"
                   className="w-full h-full object-contain"
                 />

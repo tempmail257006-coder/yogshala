@@ -253,7 +253,7 @@ const Profile: React.FC = () => {
       const options = {
         body: `Time for your ${label} yoga practice.`,
         silent: false,
-        icon: '/images/yogshala-logo.jpg'
+        icon: 'images/yogshala-logo.jpg'
       };
       try {
         if (typeof ServiceWorkerRegistration !== 'undefined' && 'serviceWorker' in navigator) {

@@ -18,7 +18,7 @@ import { usePracticeBackgroundMusic } from "../hooks/usePracticeBackgroundMusic"
 type PoseLandmark = { x: number; y: number; z?: number; visibility?: number };
 type PoseTemplate = { id: string; name: string; features: number[] };
 
-const LOCAL_POSE_LIBRARY = YOGSHALA_POSES.filter((pose) => pose.imageUrl?.startsWith("/images/")).map((pose) => ({
+const LOCAL_POSE_LIBRARY = YOGSHALA_POSES.filter((pose) => pose.imageUrl && !pose.imageUrl.startsWith("https://")).map((pose) => ({
   id: pose.id,
   name: pose.name,
   src: pose.imageUrl,
@@ -896,4 +896,3 @@ const BeginnerPracticeItemDetail: React.FC = () => {
 };
 
 export default BeginnerPracticeItemDetail;
-
