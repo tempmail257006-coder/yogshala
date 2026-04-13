@@ -1,4 +1,4 @@
-package com.yogshala.app;
+package com.sabari.yogshala;
 
 import com.getcapacitor.BridgeActivity;
 

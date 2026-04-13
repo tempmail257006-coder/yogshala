@@ -1,3 +1,8 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.import.gradle.java.home": "C:/Program Files/Android/Android Studio/jbr",
+    "java.jdt.ls.java.home": "C:/Program Files/Android/Android Studio/jbr",
+    "java.import.exclusions": [
+        "**/node_modules/**"
+    ]
 }

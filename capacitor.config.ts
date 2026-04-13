@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.yogshala.app',
+  appId: 'com.sabari.yogshala',
   appName: 'YOGSHALA',
   webDir: 'dist',
   plugins: {

@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:189600851843:android:53b1352f357329b7b5b8b6",
         "android_client_info": {
-          "package_name": "com.yogshala.app"
+          "package_name": "com.sabari.yogshala"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "189600851843-i55rbr5es3u43q54ouo2o2adq2arjf87.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.yogshala.app",
+            "package_name": "com.sabari.yogshala",
             "certificate_hash": "85023cc3ceafb379f2ea404fb573f65cc2f7cf38"
           }
         },
