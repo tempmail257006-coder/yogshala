@@ -5,11 +5,11 @@ import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
-  const repoName = env.VITE_GITHUB_PAGES_REPO || 'yogshala';
   const explicitBase = env.VITE_BASE_PATH?.trim();
+  const repoName = env.VITE_GITHUB_PAGES_REPO?.trim();
   const normalizedBase = explicitBase
     ? `/${explicitBase.replace(/^\/+|\/+$/g, '')}/`
-    : mode === 'production'
+    : repoName
       ? `/${repoName}/`
       : '/';
 
