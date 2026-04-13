@@ -1,0 +1,8 @@
+{
+  "name": "PranaFlow – AI Yoga Trainer",
+  "description": "A modern AI-powered yoga training application featuring real-time pose detection, personalized routines, and an AI yoga assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

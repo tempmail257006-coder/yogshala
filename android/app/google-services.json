@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "189600851843",
+    "project_id": "pranaflow-yoga-app",
+    "storage_bucket": "pranaflow-yoga-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189600851843:android:53b1352f357329b7b5b8b6",
+        "android_client_info": {
+          "package_name": "com.yogshala.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189600851843-i55rbr5es3u43q54ouo2o2adq2arjf87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yogshala.app",
+            "certificate_hash": "85023cc3ceafb379f2ea404fb573f65cc2f7cf38"
+          }
+        },
+        {
+          "client_id": "189600851843-i10bclt8vhqc5etu3olqq0uda10v5651.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSQgyavK3UsD-9huyOTFLAyQA9DUC7mNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189600851843-i10bclt8vhqc5etu3olqq0uda10v5651.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
