@@ -16,6 +16,9 @@ export default defineConfig(({mode}) => {
   return {
     base: normalizedBase,
     plugins: [react(), tailwindcss()],
+    build: {
+      chunkSizeWarningLimit: 1500,
+    },
     define: {
       'process.env.GROQ_API_KEY': JSON.stringify(env.GROQ_API_KEY),
     },
