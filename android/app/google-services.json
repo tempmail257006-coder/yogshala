@@ -7,17 +7,62 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:189600851843:android:53b1352f357329b7b5b8b6",
+        "mobilesdk_app_id": "1:189600851843:android:41d3116a36ed6600b5b8b6",
         "android_client_info": {
           "package_name": "com.sabari.yogshala"
         }
       },
       "oauth_client": [
         {
-          "client_id": "189600851843-i55rbr5es3u43q54ouo2o2adq2arjf87.apps.googleusercontent.com",
+          "client_id": "189600851843-0r9bl02uaep6g418g66msci54ikhqgql.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.sabari.yogshala",
+            "certificate_hash": "961f99e563cab5bd4f82c45cabcd5df2fbd1cef9"
+          }
+        },
+        {
+          "client_id": "189600851843-i10bclt8vhqc5etu3olqq0uda10v5651.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSQgyavK3UsD-9huyOTFLAyQA9DUC7mNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189600851843-i10bclt8vhqc5etu3olqq0uda10v5651.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189600851843:android:53b1352f357329b7b5b8b6",
+        "android_client_info": {
+          "package_name": "com.yogshala.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189600851843-7khs7ou7qfe1rni39mommesvn7oh915d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yogshala.app",
+            "certificate_hash": "53444f503869a3a0871a2d76c9d58c0262ab10e4"
+          }
+        },
+        {
+          "client_id": "189600851843-i55rbr5es3u43q54ouo2o2adq2arjf87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yogshala.app",
             "certificate_hash": "85023cc3ceafb379f2ea404fb573f65cc2f7cf38"
           }
         },

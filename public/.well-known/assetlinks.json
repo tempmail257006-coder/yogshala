@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sabari.yogshala",
+      "sha256_cert_fingerprints": [
+        "5E:82:8A:26:64:40:13:79:59:99:A6:B4:C3:7C:72:B3:7F:48:51:31:86:FD:24:AA:BE:56:F2:86:0F:3A:BB:EF"
+      ]
+    }
+  }
+]
