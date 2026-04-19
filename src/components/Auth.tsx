@@ -121,21 +121,20 @@ const Auth: React.FC = () => {
         throw new Error('Firebase is not configured. Please set your Firebase keys.');
       }
       if (Capacitor.isNativePlatform()) {
-        const signInNative = (useCredentialManager: boolean) =>
-          FirebaseAuthentication.signInWithGoogle({
-            skipNativeAuth: true,
-            useCredentialManager,
-          });
-
         let result;
         try {
-          // Some Android devices return "No credentials available" with Credential Manager.
-          // Fall back to the legacy flow in that case.
-          result = await signInNative(true);
+          result = await FirebaseAuthentication.signInWithGoogle({
+            skipNativeAuth: true,
+          });
         } catch (firstErr: any) {
           const message = String(firstErr?.message || '').toLowerCase();
           if (message.includes('no credentials') || message.includes('credential')) {
-            result = await signInNative(false);
+            // Some Android devices return "No credentials available" with Credential Manager.
+            // Fall back to the legacy flow in that case.
+            result = await FirebaseAuthentication.signInWithGoogle({
+              skipNativeAuth: true,
+              useCredentialManager: false,
+            });
           } else {
             throw firstErr;
           }
