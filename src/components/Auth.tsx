@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Mail, Lock, User, ArrowRight, Flower2, ChevronLeft } from 'lucide-react';
 import { GoogleAuthProvider, signInWithCredential, signInWithEmailAndPassword, createUserWithEmailAndPassword, signInWithPopup, sendPasswordResetEmail } from 'firebase/auth';
 import { Capacitor } from '@capacitor/core';
-import { FirebaseAuthentication } from '@capacitor-firebase/authentication';
 import { auth, googleProvider } from '../firebase';
 import { useLanguage } from '../context/LanguageContext';
 import { useNavigate } from 'react-router-dom';
@@ -121,6 +120,7 @@ const Auth: React.FC = () => {
         throw new Error('Firebase is not configured. Please set your Firebase keys.');
       }
       if (Capacitor.isNativePlatform()) {
+        const { FirebaseAuthentication } = await import('@capacitor-firebase/authentication');
         let result;
         try {
           result = await FirebaseAuthentication.signInWithGoogle({
